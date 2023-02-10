@@ -27,10 +27,10 @@ class HappyNumber {
 }
 
 $happyNumber = new HappyNumber();
-$num = 7;
+$num = 8;
 
 if ($happyNumber->isHappyNumber($num)) {
-    echo "$num é um número feliz.";
+    echo "O Número $num é um número feliz.";
 } else {
-    echo "$num não é um número feliz.";
+    echo "O Número $num não é um número feliz.";
 }
